@@ -1,16 +1,28 @@
 {
   "name": "bluebird-rimraf",
-  "version": "0.0.0",
   "description": "rimraf promise version using bluebird",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "keywords": ["rimraf", "bluebird", "promise"],
+  "keywords": [
+    "rimraf",
+    "bluebird",
+    "promise"
+  ],
   "author": "Dennis Saenger <npm-16 <(AT)> mail.ds82.de",
   "license": "ISC",
   "peerDependencies": {
     "bluebird": ">2",
     "rimraf": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ds82/bluebird-rimraf.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
   }
 }
